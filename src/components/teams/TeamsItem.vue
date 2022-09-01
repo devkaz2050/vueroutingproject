@@ -1,8 +1,8 @@
 <template>
   <li>
     <h3>{{ name }}</h3>
-    <div class="team-members">{{ memberCount }} Members</div>
-    <router-link :to="teamMembersLink">View Members</router-link>
+    <div class="team-members">{{ memberCount }} Работник/-ов</div>
+    <router-link :to="teamMembersLink">Подробней</router-link>
   </li>
 </template>
 
@@ -26,7 +26,7 @@ export default {
 <style scoped>
 li {
   margin: 1rem 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 8px rgba(50, 50, 53, 0.26);
   border-radius: 12px;
   padding: 1rem;
 }

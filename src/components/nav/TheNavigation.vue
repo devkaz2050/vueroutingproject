@@ -3,10 +3,10 @@
     <nav>
       <ul>
         <li>
-          <router-link to="/teams">Teams</router-link>
+          <router-link to="/teams">Команды</router-link>
         </li>
         <li>
-          <router-link to="/users">Users</router-link>
+          <router-link to="/users">Пользователи</router-link>
         </li>
       </ul>
     </nav>
@@ -17,7 +17,7 @@
 header {
   width: 100%;
   height: 5rem;
-  background-color: #11005c;
+  background-color: #1d35c0;
 }
 
 nav {
@@ -51,8 +51,8 @@ a {
 a:hover,
 a:active,
 a.active {
-  color: #f1a80a;
-  border-color: #f1a80a;
+  color: #aff10a;
+  border-color: #aff10a;
   background-color: #1a037e;
 }
 </style>

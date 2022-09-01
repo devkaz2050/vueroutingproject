@@ -1,6 +1,6 @@
 <template>
-  <button @click="confirmInput">Confirm</button>
-  <button @click="saveChanges">Save Changes</button>
+  <button @click="confirmInput">Подтвердить</button>
+  <button @click="saveChanges">Сохранить изменения</button>
   <ul>
     <user-item v-for="user in users" :key="user.id" :name="user.fullName" :role="user.role"></user-item>
   </ul>
@@ -38,7 +38,7 @@ export default {
     if (this.changesSaved) {
       next();
     } else {
-      const userWantsToLeave = confirm('Are you sure? You got unsaved changes!');
+      const userWantsToLeave = confirm('Вы уверены, что не хотите сохранить изменения?');
       next(userWantsToLeave);
     }
   },

@@ -1,3 +1,3 @@
 <template>
-  <h2>Teams Footer</h2>
+  <h2>Подвал страницы Команда</h2>
 </template>

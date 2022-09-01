@@ -1,6 +1,6 @@
 <template>
   <h2>
-    Page not found! Maybe view our
-    <router-link to="/teams">Teams</router-link>?
+    Страница не найдена! Ошибка 404.
+    <router-link to="/teams">Команды</router-link>?
   </h2>
 </template>
